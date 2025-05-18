@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChihiroKoyashiki</title>
+    <meta name="description" content="ポートフォリオ ChihiroKoyashiki Chihiro koyashiki 千紘 小屋敷 小屋敷千紘">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--
+    header
+    -->
+    <header class="header">
+        <h1 class="header_title">CHIHIRO</br>KOYASHIKI</h1>
+        <nav class="header_nav">
+            <ul class="header_nav_list">
+                <li class="nav_list_label">ABOUT</li>
+                <li class="nav_list_label">WORKS</li>
+                <li class="nav_list_label">NEWS</li>
+            </ul>
+        </nav>
+        <div class="header_nav_contact">
+            <a class="nav_contact_button">✉ お問い合わせはこちら</a>
+        </div>
+    </header>
+
+    <!--
+    main
+    -->
+    <section class="main">
+        <div class="main_visual">
+            <img class="main_visual_image" src="./image/main.jpg" alt="プロフィール画像">
+            <div class="main_visual_button">
+                <p class="button_text">ABOUT ME</p>
+            </div>
+        </div>
+    </section>
+
+        <!--
+    service
+    -->
+    <section class="service">
+        <h1 class="service_title">SERVICE</h1>
+        <h2 class="service_title_ja">サービス</h2>
+        <div class="service_body">
+            <div class="service_body_grid">
+                <h2 class="body_grid_title">WEBデザイン</h2>
+                <p class="body_grid_text">ヒアリング内容に沿ってWEBサイト、バナーの制作をすることができます。</p>
+            </div>
+            <div class="service_body_grid">
+                <h2 class="body_grid_title">HTML&amp;CSS</h2>
+                <p class="body_grid_text">デザインカンプを再現し、見る人が分かりやすいサイトを制作できます。</p>
+            </div>            <div class="service_body_grid">
+                <h2 class="body_grid_title">JavaScript</h2>
+                <p class="body_grid_text">jQueryを使用して動きを加えることができます。</p>
+            </div>
+        </div>
+    </section>
+
+        <!--
+    content
+    -->
+    <section class="content">
+        <h1 class="content_title">WORKS</h1>
+        <h2 class="service_title_ja">デザインしたもの</h2>
+        <div class="content_thumbnail">
+            <div class="content_thumbnail_grid">
+                <img class="content_thumbnail_image" src="./image/TravelBlogimage.png" alt="デザインしたもの">
+                <a class="content_thumbnail_button">MORE</a>
+            </div>
+            <div class="content_thumbnail_grid">
+                <img class="content_thumbnail_image" src="./image/10th anniversary.png" alt="デザインしたもの">
+                <a class="content_thumbnail_button">MORE</a>
+            </div>
+            <div class="content_thumbnail_grid">
+                <img class="content_thumbnail_image" src="./image/GRAND OPEN(20241119).png" alt="デザインしたもの">
+                <a class="content_thumbnail_button">MORE</a>
+            </div>
+            <div class="content_thumbnail_grid">
+                <img class="content_thumbnail_image" src="./image/HAPPY BIRTH DAY-1.png" alt="デザインしたもの">
+                <a class="content_thumbnail_button">MORE</a>
+            </div>
+        </div>
+    </section>
+<!-- モーダル全体 -->
+<div class="works_moreview" style="display: none;">
+    <!-- 各モーダル -->
+    <div class="moreview_grid" id="1" style="display: none;">
+      <button class="moreview_close" title="閉じる">&times;</button>
+      <img class="moreview_image" src="./image/TravelBlogimage.png" alt="作品画像">
+      <div class="moreview_text">
+        <p class="moreview_text_title">作品名：Travel Blog</p>
+        <p class="moreview_url"><a href="https://chihirokoyashiki.github.io/travelblog/">https://chihirokoyashiki.github.io/travelblog/</a></p>
+        <p class="moreview_text_caption">模写コーディングしたポートフォリオです。</p>
+        <p class="moreview_text_skill">使用スキル：HTML / CSS</p>
+      </div>
+    </div>
+  
+    <div class="moreview_grid" id="2" style="display: none;">
+      <button class="moreview_close" title="閉じる">&times;</button>
+      <img class="moreview_image" src="./image/10th anniversary.png" alt="作品画像">
+      <div class="moreview_text">
+        <p class="moreview_text_title">作品名：10周年記念</p>
+        <p class="moreview_text_caption">記念イベントの告知デザインです。</p>
+        <p class="moreview_text_skill">使用スキル：Canva</p>
+      </div>
+    </div>
+  
+    <div class="moreview_grid" id="3" style="display: none;">
+      <button class="moreview_close" title="閉じる">&times;</button>
+      <img class="moreview_image" src="./image/GRAND OPEN(20241119).png" alt="作品画像">
+      <div class="moreview_text">
+        <p class="moreview_text_title">作品名：GRAND OPEN</p>
+        <p class="moreview_text_caption">新店舗オープンのバナーです。</p>
+        <p class="moreview_text_skill">使用スキル：Canva</p>
+      </div>
+    </div>
+  
+    <div class="moreview_grid" id="4" style="display: none;">
+      <button class="moreview_close" title="閉じる">&times;</button>
+      <img class="moreview_image" src="./image/HAPPY BIRTH DAY-1.png" alt="作品画像">
+      <div class="moreview_text">
+        <p class="moreview_text_title">作品名：BIRTHDAY CARD</p>
+        <p class="moreview_text_caption">お祝い用グラフィックを作成しました。</p>
+        <p class="moreview_text_skill">使用スキル：Canva</p>
+      </div>
+    </div>
+  </div>
+  
+   <!--
+    news
+    -->
+<section class="post">
+        <h1 class="post_title">NEWS</h1>
+        <h2 class="service_title_ja">ニュース</h2>
+            <div class="post_content">
+                <div class="post_content_card">
+                  <img class="post_content_image" src="./image/2025.04.png" alt="NEWS">
+                  <a href="news.html" class="post_content_overlay_button">もっと見る！</a>
+                </div>
+            </div>
+</section>
+        <!--
+    footer
+    -->
+    <footer class="footer">
+        <nav class="footer_nav">
+            <ul class="footer_nav_list">
+                <li class="nav_list_label">ABOUT</li>
+                <li class="nav_list_label">WORKS</li>
+                <li class="nav_list_label">NEWS</li>
+                <li class="nav_list_label">CONTACT</li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./js/main.js" defer></script>
+</body>
+</html>

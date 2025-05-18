@@ -1,0 +1,98 @@
+
+.profile {
+  margin-top: 200px;
+  text-align: left;
+}
+
+.profile_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.profile_main_text {
+  line-height: 40px;
+  text-align: left;
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+.profile_main_image {
+  width: 800px;
+  height: auto;
+}
+
+.back_button {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  margin: 50px;
+  transition: font-size 0.3s ease, transform 0.3s ease;
+}
+
+.back_button:hover {
+  font-size: 22px;
+  transform: scale(1.05);
+}
+
+/* -------------------------------------------------- */
+/*  Responsive Design                                 */
+/* -------------------------------------------------- */
+
+/* --------  Large tablets / small desktops  -------- */
+@media (max-width: 1024px) {
+  .profile { margin-top: 150px; }
+  .profile_main { margin-top: 60px; }
+  .profile_main_text { font-size: 20px; line-height: 34px; }
+  .profile_main_image { width: 320px; }
+}
+
+/* --------  Tablets / landscape phones  -------- */
+@media (max-width: 768px) {
+  .profile { margin-top: 120px; }
+  .profile_main {
+    flex-direction: column;          /* Stack vertically */
+    align-items: flex-start;         /* Keep left align */
+    margin-top: 50px;
+  }
+  .profile_main_text {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 20px 0;             /* Space below text */
+  }
+  .profile_main_image {
+    width: 70%;
+    max-width: 280px;
+  }
+  .back_button { font-size: 16px; margin: 40px; }
+  .back_button:hover { font-size: 18px; }
+}
+
+/* --------  Small phones (≤ 600px)  -------- */
+@media (max-width: 600px) {
+  .profile_main_text { line-height: 28px; }
+  .profile_main_image { max-width: 240px; }
+}
+
+/* --------  Smartphones  -------- */
+@media (max-width: 480px) {
+  .profile { margin-top: 80px; }
+  .profile_main_text { font-size: 16px; line-height: 28px; }
+  .back_button { font-size: 14px; }
+  .back_button:hover { font-size: 16px; }
+  .profile_main_image { max-width: 200px; }
+}
+
+/* --------  Extra‑small devices (≤ 375px)  -------- */
+@media (max-width: 375px) {
+  .profile_main_text { font-size: 15px; line-height: 26px; }
+  .profile_main_image { max-width: 180px; }
+}
+
+/* -------------------------------------------------- */
+/*  End Responsive Design                             */
+/* -------------------------------------------------- */
