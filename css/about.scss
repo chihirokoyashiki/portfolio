@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.profile{
+    margin-top: 200px;
+    text-align: left;
+}
+/*.profile_title{
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.profile_title_sab{
+    font-size: 16px;
+    padding-left: 150px;
+    margin-top: 20px;
+}*/
+
+.profile_main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+.profile_main_text{
+    line-height: 40px;
+    text-align: left;
+    margin-right: 30px;
+    font-size: 22px;
+
+}
+
+.profile_main_image{
+    width: 400px;
+    height: auto;
+}
+
+.back_button{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin: 50px ;
+}
