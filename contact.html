@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChihiroKoyashiki</title>
+    <meta name="description" content="ポートフォリオ ChihiroKoyashiki Chihiro koyashiki 千紘 小屋敷 小屋敷千紘">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!--
+    header
+    -->
+    <header class="header">
+        <h1 class="header_title">CHIHIRO</br>KOYASHIKI</h1>
+        <nav class="header_nav_item">
+            <ul class="header_nav_list">
+                <li class="nav_list_label">ABOUT</li>
+                <li class="nav_list_label">WORKS</li>
+                <li class="nav_list_label">NEWS</li>
+            </ul>
+        </nav>
+        <div class="header_nav_contact">
+            <a class="nav_contact_button">✉ お問い合わせはこちら</a>
+        </div>
+    </header>
+<!--contact-->
+    <section class="section_contact" id="contact">
+        <h1 class="section_title">CONTACT</h1>
+        <h2 class="section_title_sub">お問い合わせ</h2><!--common-->
+        <div class="contact">
+            <div class="contact_info">
+                <p class="contact_info_text">この度はお問い合わせいただきありがとうございます。</br>制作に関するご質問・ご依頼などお気軽にお問い合わせください。</br>必須項目<span class="contact_required">*</span>はすべてご記入をお願いいたします。</p>
+            </div>
+            <form class="contact-form" action="https://ssgform.com/s/nZ8k9JgSdKW9" method="post">
+                <div class="form-group">
+                    <label for="name">名前<span class="contact_required">*</span></label>
+                    <input  class="input" type="text" name="name" required>     
+                </div>
+                <div class="form-group">
+                    <label for="mail">メールアドレス<span class="contact_required">*</span></label>
+                    <input class="input" type="text" name="mail" required>      
+                </div>
+                <div class="form-group">
+                    <label for="phone">電話番号</label>
+                    <input class="input" type="textarea" name="message">     
+                </div>
+                <div class="form-group">
+                   <label for="message">お問い合わせ内容<span class="contact_required">*</span></label>
+                   <textarea class="input" name="message" required></textarea>
+                </div>              
+                <div class="contact_form_btn">
+                    <input class="form_btn_submit" type="submit" value="送信する" />
+                </div>
+            </form>
+        </div>    
+    </section>
+    <script src="./js/main.js" defer></script>
+</body>
+</html>
