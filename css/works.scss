@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.works{
+    margin-top: 200px;
+}
+
+.works_grid_1,.works_grid_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.works_grid_2{
+    background-color: whitesmoke;
+}
+
+.works_grid_image{
+    max-width:300px;
+    height: auto;
+    margin: 0 50px;
+    border: 1px solid black;
+}
+
+.works_grid_text{
+    margin: 0 50px;
+}
+
+.grid_text_title,.grid_description{
+    margin: 10px 0;
+}
+
+.grid_text_title{
+    font-weight: bold;
+}
+
+/*button*/
+.grid_transition{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px ;
+}
+
+.grid_transition_button{
+    text-decoration: none;
+    color: white;
+}
+
+/*more view*/
+.works_moreview{
+    background-color: whitesmoke;
+    max-width: 750px;
+    height: auto;
+}
+.moreview_back{
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.moreview_back_button{
+    text-align: end;
+}
+
+.moreview_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.moreview_image{
+    width: 80%;
+    height: auto;
+}
+
+.moreview_text{
+    margin: 100px;
+    width: 100%;
+    height: auto;
+}
+.moreview_text_title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.moreview_text_skill{
+    font-size: 12px;
+}
+
+.moreview_text_title,
+.moreview_text_caption,
+.moreview_text_skill{
+    margin: 20px;
+}
